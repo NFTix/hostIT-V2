@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# <h1 align="center"> HostIT | Create and Manage Your Events Seamlessly </h1>
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Welcome to **HostIT**, a robust web3 event ticketing application with integrated Proof of Attendance Protocol (POAP) functionality. HostIT allows users to register for events, purchase tickets, and receive digital badges as proof of their attendance. 
+
+## Features
+
+- **User Registration and Authentication**: Users can register using decentralized identity solutions such as MetaMask or WalletConnect
+- **Event Creation and Ticketing**: Event organizers can create events, set ticket prices, and manage ticket sales. IUsers can buy tickets using cryptocurrency.
+- **Attendance Verification**: Attendance verification mechanisms for attendees' participation in events, (QR code scanning or check-in procedures)
+- **POAP Integration**: Integration with POA protocol to issue digital badges to attendees upon event attendance
+- **Social Sharing**: Users can share their earned POAP badges on social media platforms directly from our application.
+- **Analytics and Insights**: Event organizers are provided with insights into attendees' participation and engagement.
+
+## Tools
+
+- [**_ReactJs_**](https://react.dev/)
+- [**_Foundry_**](https://book.getfoundry.sh/)
+- [**_JavaScript_**](https://www.javascript.com/)
+- [**_Solidity_**](https://soliditylang.org/)
+- [**_NodeJS_**](https://nodejs.org/en)
+- [**_POAP_**](https://poap.xyz/)
+- [**_Postman_**](https://www.postman.com/)
+- [**_SubGraphs_**](https://thegraph.com/studio/)
+
+## Installation
+
+Provide step-by-step instructions on how to get a development environment running.
 
 ```bash
+git clone https://github.com/NFTix/hostIT-V2.git
+cd hostIT-V2
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Backend
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You can find the HostIT Backend - [HERE](https://github.com/NFTix/host-it-backend.git)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## SmartContract
 
-## Learn More
+You can find the HostIT SmartContract - [HERE](https://github.com/NFTix/diamond-host-it-contract)
 
-To learn more about Next.js, take a look at the following resources:
+## Subgraph
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can find the HostIT Subgraph - [HERE](https://github.com/NFTix)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## API Documentation
 
-## Deploy on Vercel
+You can find the HostIT API documentation - [HERE](https://github.com/NFTix)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Web3Bridge Team.
+
+Hacked By HostIT Team
